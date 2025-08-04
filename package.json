@@ -1,12 +1,12 @@
 {
-  "name": "ɴᴇᴛʜᴜᴡʜ-xᴍᴅ",
+  "name": "NETHUWH-XMD",
   "version": "1.0.0",
-  "description": "A WhatsApp Bot Created By 𝗻𝗲𝘁𝗵𝘂𝗺",
+  "description": "A WhatsApp Bot Created By NETHUM AKASH",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name HIRU-X-MD",
-    "stop": "pm2 stop 𝙽𝙴𝚃𝙷𝚄𝚆𝙷-𝚇𝙼𝙳",
-    "restart": "pm2 restart 𝐍𝐄𝐓𝐇𝐔𝐖𝐇-𝐗𝐌D"
+    "start": "pm2 start index.js --deep-monitoring --attach --name NETHUWH-XMD",
+    "stop": "pm2 stop NETHUWH-XMD",
+    "restart": "pm2 restart NETHUWH-XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.17",

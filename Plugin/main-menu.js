@@ -10,14 +10,14 @@ cmd({
     use: '.menu2',
     desc: "Show all bot commands",
     category: "menu",
-    react: "📜",
+    react: "🃏",
     filename: __filename
 },
     async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
         try {
-            let dec = `╭━━〔 🚀*𝗛𝗜𝗥𝗨 𝗫 𝗠𝗗* 〕━━┈⊷
+            let dec = `╭━━〔 🚀*𝗡𝗘𝗧𝗛𝗨𝗪𝗛 𝗫𝗠𝗗* 〕━━┈⊷
 ┃◈╭─────────────────·๏
-┃◈┃• 👑 Owner : *chamindu*
+┃◈┃• 👑 Owner : *ɴᴇᴛʜᴜᴡʜ*
 ┃◈┃• ⚙️ Prefix : *[${config.PREFIX}]*
 ┃◈┃• 🌐 Platform : *Heroku*
 ┃◈┃• 📦 Version : *1.0.0*
@@ -339,7 +339,7 @@ cmd({
 ┃◈╰─────────────────┈⊷
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ hirun*`;
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴜᴡʜ*`;
 
             // Function to send menu video
             const sendMenuVideo = async () => {
@@ -362,15 +362,15 @@ cmd({
                 await conn.sendMessage(
                     from,
                     {
-                        image: { url: 'https://github.com/Chamijd/KHAN-DATA/blob/main/logo/IMGhirunmenu.jpg' },
+                        image: { url: 'https://files.catbox.moe/pgcxfy.jpg' },
                         caption: dec,
                         contextInfo: {
                             mentionedJid: [m.sender],
                             forwardingScore: 999,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363418953677198@newsletter',
-                                newsletterName: '𝗛𝗜𝗥𝗨 𝗫 𝗠𝗗',
+                                newsletterJid: '1208@newsletter',
+                                newsletterName: '𝗛',
                                 serverMessageId: 143
                             }
                         }

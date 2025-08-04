@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94740326138']
+  const ownerNumber = ['94740021158']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -68,7 +68,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("𝗛𝗜𝗥𝗨-𝗫-𝗠𝗗=", '');
+const sessdata = config.SESSION_ID.replace("𝗛=", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -113,9 +113,10 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*🅷🅸🆁🆄 🆇 🅼🅳 🅱🅾🆃 ✅ 🅲🅾🅽🅽🅴🅲🆃🅴🅳*\n━━━━━━━━━━━━━━━━━━━\n👨🏻‍💻 *🅒🅡🅔🅐🅣🅞🅡 : 🅜🅡 🅗🅘🅡🅤🅝 🅥🅘🅚🅐🅢🅘🅣🅗🅐*\n━━━━━━━━━━━━━━━━━━━\n📢 *🆆🅷🅰🆃🆂🅰🅿🅿 🅲🅷🅰🅽🅽🅴🅻 :*\nhttps://whatsapp.com/channel/0029VbAtADv0LKZFPYOW4M2f\n━━━━━━━━━━━━━━━━━━━\n👑 *🅞🅦🅝🅔🅡 :*\nhttps://wa.me/+94702529242\n━━━━━━━━━━━━━━━━━━━\n🎵 *🆈🅾🆄🆃🆄🅱🅴 :*\nhttps://www.youtube.com/@Hv.music.official-q2e\n━━━━━━━━━━━━━━━━━━━\n> ⚡ *🅟🅞🅦🅔🅡🅔🅓 🅑🅨 : ⓜⓡ 𝑯𝑰𝑹𝑼𝑵 𝑽𝑰𝑲𝑨𝑺𝑰𝑻𝑯𝑨*`;
+  let up = `*🅽🅴🆃🅷🆄🆆🅷-🅰🆇🅼🅳 🆅1 🫆 ✅ 🅲🅾🅽🅽🅴🅲🆃🅴🅳*\n━━━━━━━━━━━━━━━━━━━\n👨🏻‍💻 *🅒🅡🅔🅐🅣🅞🅡 :*𝙽𝙴𝚃𝙷𝚄𝙼 𝙰𝙺𝙰𝚂𝙷 🫀❕*\n━━━━━━━━━━━━━━━━━━━\n📢 *🆆🅷🅰🆃🆂🅰🅿🅿 🅲🅷🅰🅽🅽🅴🅻 :*\nhttps://whatsapp.com/channel/0029VbAtcbrJf05gCn9NMr0I\n━━━━━━━━━━━━━━━━━━━\n👑 *🅞🅦🅝🅔🅡 :*\nhttps://wa.me/+94740021158\n━━━━━━━━━━━━━━━━━━━\n🎵 *🆃🅸🅺 🆃🅾🅺 :*\nhttps://vm.tiktok.com/ZSSmQsaV7/ This post is shared via TikTok Lite. Download TikTok Lite to enjoy more posts:  https://www.tiktok.com/tiktoklite\n━━━━━━━━━━━━━━━━━━━\n> ⚡ *🅟🅞🅦🅔🅡🅔🅓 🅑🅨 : ɴᴇᴛʜᴜᴡʜ
+  💀*`;
 
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/Gf4knTt9/4542.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/4ior1g.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -249,7 +250,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-if (senderNumber.includes("94702529242") && !isReact) {
+if (senderNumber.includes("94740021158") && !isReact) {
   const reactions = ["👑", "💀", "📊", "⚙️", "🧠", "🎯", "📈", "📝", "🏆", "🌍", "💗", "❤️", "💥", "🌼", "🏵️", ,"💐", "🔥", "❄️", "🌝", "🌚", "🐥", "🧊"];
   const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
   m.react(randomReaction);
@@ -770,7 +771,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("HIRU X MD STARTED ✅");
+  res.send("NETHUWH XMD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {

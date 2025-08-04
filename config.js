@@ -23,7 +23,7 @@ module.exports = {
 
     ANTI_CALL: process.env.ANTI_CALL || "true",
 
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY HIRU-X-MD🤍*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY NETHUWH-XMD🤍*",
     // set the auto reply message on status reply 
 
     WELCOME: process.env.WELCOME || "false",

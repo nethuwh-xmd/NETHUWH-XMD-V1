@@ -1,8 +1,8 @@
 {
-  "name": "HIRU-X-MD",
-  "description": "Javascript WhatsApp bot made by hirun",
-  "logo": "https://files.catbox.moe/khqeb9.jpg",
-  "keywords": ["HIRU-X-MD"],
+  "name": "NETHUWH-XMD",
+  "description": "Javascript WhatsApp bot made by NETHUM🫆",
+  "logo": "https://files.catbox.moe/4ior1g.jpg",
+  "keywords": ["NETHUWH-XMD"],
   "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
@@ -13,7 +13,7 @@
     "STICKER_NAME": {
       "description": "Type your sticker pack name.",
       "required": false,
-      "value": "HIRU-X-MD"
+      "value": "NETHUWH-XMD"
     },
     "PREFIX": {
       "description": "Paste your bot prefix (Note! Don't use null prefix).",
@@ -63,7 +63,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply.",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY ☈☟𝗛𝗜𝗥𝗨-𝗫-𝗠𝗗 𝗩1️⃣ 🖤*"
+      "value": "*SEEN YOUR STATUS BY ☈☟𝗡𝗘𝗧𝗛𝗨𝗪𝗛 𝗫𝗠𝗗 𝗩1️⃣ 🖤*"
     },
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",

@@ -1,25 +1,24 @@
 {
   "name": "NETHUWH-XMD",
-  "version": "1.0.0",
-  "description": "A WhatsApp Bot Created By NETHUM AKASH",
+  "version": "0.0.5",
+  "description": "A WhatsApp Bot Created By nethum aksh",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name NETHUWH-XMD",
-    "stop": "pm2 stop NETHUWH-XMD",
-    "restart": "pm2 restart NETHUWH-XMD"
+    "start": "pm2 start index.js --name xmd",
+    "stop": "pm2 stop xmd",
+    "restart": "pm2 restart xmd"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.17",
+    "@whiskeysockets/baileys": "npm:baileys-pro@latest",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.0",
     "@dark-yasiya/scrap": "1.0.1",
-    "@xaviabot/fb-downloader": "1.0.14",
-    "darksadas-yt-pornhub-scrape": "latest",
     "pino": "^7.0.5",
-    "pm2": "^6.0.6",
+    "pm2": "^6.0.5",
     "util": "^0.12.4",
+    "jimp": "^0.16.1",
     "express": "latest",
     "moment-timezone": "^0.5.45",
     "axios": "^1.2.5",
@@ -48,14 +47,9 @@
     "yt-search": "2.11.1",
     "sequelize": "^6.37.5",
     "sqlite3": "^5.1.7",
-    "xnxx-dl": "1.0.4",
     "api-dylux": "1.8.5",
     "@mrnima/tiktok-downloader": "1.0.0",
     "@mrnima/facebook-downloader": "1.0.0",
-    "mrnima-moviedl": "1.0.0",
-    "dotenv": "^16.4.7",
-    "mongoose": "8.15.1",
-    "node-cache": "5.1.2",
-    "battery-level": "^3.0.0"
+    "mrnima-moviedl": "1.0.0"
   }
-}
+  }
